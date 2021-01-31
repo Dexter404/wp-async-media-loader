@@ -1,2 +1,2 @@
 # wp-async-media-loader
-Demo for asynchronous media loading in WordPress media library
+WordPress plugin to demonstrate asynchronous loading of media in WordPress media library
