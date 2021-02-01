@@ -10,7 +10,9 @@ Copy the PHP script to WordPress plugin directory (`/wordpress/wp-content/plugin
 
 Once activated, you can go to Custom Post page `http://localhost:8888/wordpress/wp-admin/edit.php?post_type=async_media_loader`.
 
-Initially there will be no custom post. To add some, pass `custom_post_load=true` in query params like `http://localhost:8888/wordpress/wp-admin/edit.php?post_type=async_media_loader?custom_post_load=true`. To reset use `custom_post_reset=true` in query params like `http://localhost:8888/wordpress/wp-admin/edit.php?post_type=async_media_loader?custom_post_reset=true`.
+Initially custom post view will be empty. 
+- To add some, pass `custom_post_load=true` in query params like `http://localhost:8888/wordpress/wp-admin/edit.php?post_type=async_media_loader?custom_post_load=true`. 
+- To reset use `custom_post_reset=true` in query params like `http://localhost:8888/wordpress/wp-admin/edit.php?post_type=async_media_loader?custom_post_reset=true`.
 
 For tutorial, visit the post [here](https://rahul-arora.medium.com/asynchronous-media-load-in-wordpress-plugin-4d4cd6734d55).
 
